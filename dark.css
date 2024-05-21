@@ -89,7 +89,6 @@ nav li a {
 .container {
   position: relative;
   display: flex;
-  align-items: center; /* Centrar verticalmente */
   justify-content: space-between; /* Espacio entre los elementos */
 }
 
