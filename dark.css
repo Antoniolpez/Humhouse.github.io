@@ -86,6 +86,33 @@ nav li a {
   animation: parpadeo 2s ease-in-out infinite;
 }
 
+.container {
+  position: relative;
+  display: flex;
+  align-items: center; /* Centrar verticalmente */
+  justify-content: space-between; /* Espacio entre los elementos */
+}
+
+.text-content {
+  width: 20vw;
+  padding: 20px; /* Agrega un poco de espacio alrededor del texto */
+  float: left;
+}
+
+.image-content {
+  float: left;
+  padding: 20px; /* Agrega un poco de espacio alrededor de la imagen */
+}
+
+.image-content img {
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+
+
+
+
+
+
 @keyframes parpadeo {
   0% {
     opacity: 1;
@@ -127,29 +154,4 @@ nav li a {
   nav li {
     margin-right: 10px;
   }
-
-.container {
-  position: relative;
-  display: flex;
-  align-items: center; /* Centrar verticalmente */
-  justify-content: space-between; /* Espacio entre los elementos */
-}
-
-.text-content {
-  width: 20vw;
-  padding: 20px; /* Agrega un poco de espacio alrededor del texto */
-  float: left;
-}
-
-.image-content {
-  float: left;
-  padding: 20px; /* Agrega un poco de espacio alrededor de la imagen */
-}
-
-.image-content img {
-  height: auto; /* Mantiene la proporción de la imagen */
-}
-
-
-  
 }
