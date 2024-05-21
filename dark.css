@@ -144,7 +144,6 @@ nav li a {
 }
 
 .image-content img {
-  max-width: 100%; /* Ajusta el tamaño de la imagen para que no se salga del contenedor */
   height: auto; /* Mantiene la proporción de la imagen */
 }
 
