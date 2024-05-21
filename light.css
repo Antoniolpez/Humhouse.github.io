@@ -129,26 +129,28 @@ nav li a {
   }
 
   .container {
+  position: relative;
   display: flex;
   align-items: center; /* Centrar verticalmente */
   justify-content: space-between; /* Espacio entre los elementos */
-}
+  }
+  
+  .text-content {
+    padding: 20px; /* Agrega un poco de espacio alrededor del texto */
+  }
+  
+  .image-content {
+    padding: 20px; /* Agrega un poco de espacio alrededor de la imagen */
+  }
+  
+  .image-content img {
+    height: auto; /* Mantiene la proporción de la imagen */
+  }
 
-.text-content {
-  flex: 1; /* Ocupa el espacio disponible */
-  padding: 20px; /* Agrega un poco de espacio alrededor del texto */
-}
 
-.image-content {
-  flex: 1; /* Ocupa el espacio disponible */
-  padding: 20px; /* Agrega un poco de espacio alrededor de la imagen */
-  text-align: right; /* Alinea la imagen a la derecha */
-}
 
-.image-content img {
-  max-width: 100%; /* Ajusta el tamaño de la imagen para que no se salga del contenedor */
-  height: auto; /* Mantiene la proporción de la imagen */
-}
+
+  
 }
 
 
