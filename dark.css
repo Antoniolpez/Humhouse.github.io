@@ -136,14 +136,11 @@ nav li a {
 }
 
 .text-content {
-  flex: 1; /* Ocupa el espacio disponible */
   padding: 20px; /* Agrega un poco de espacio alrededor del texto */
 }
 
 .image-content {
-  flex: 1; /* Ocupa el espacio disponible */
   padding: 20px; /* Agrega un poco de espacio alrededor de la imagen */
-  text-align: right; /* Alinea la imagen a la derecha */
 }
 
 .image-content img {
